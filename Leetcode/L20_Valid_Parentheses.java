@@ -3,15 +3,15 @@ package Leetcode;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class Leetcode20 {
+public class L20_Valid_Parentheses {
 
     public static void main(String[] args) {
-        Leetcode20 leetcode20 = new Leetcode20();
+        L20_Valid_Parentheses l20ValidParentheses = new L20_Valid_Parentheses();
         Scanner sc = new Scanner(System.in);
         String str;
         System.out.print("Enter a string of parenthesis: ");
         str = sc.nextLine();
-        System.out.println(leetcode20.isValid(str));
+        System.out.println(l20ValidParentheses.isValid(str));
     }
 
     public boolean isValid(String s) {
