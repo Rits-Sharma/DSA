@@ -1,6 +1,6 @@
 package Leetcode;
 
-public class Leetcode21 {
+public class L21_Merge_List {
     public static void main(String[] args) {
         ListNode root1 = null;
         root1 = insertAtEnd(root1,1);
