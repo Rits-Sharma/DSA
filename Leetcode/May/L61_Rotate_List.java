@@ -1,7 +1,7 @@
 package Leetcode.May;
 
 
-import Leetcode.ListNode;
+//import Leetcode.ListNode;
 
 public class L61_Rotate_List {
     public static void main(String[] args) {
@@ -25,10 +25,10 @@ public class L61_Rotate_List {
     }
 }
 //
-//class ListNode {
-//    int val;
-//    ListNode next;
-//    ListNode() {}
-//    ListNode(int val) { this.val = val; }
-//    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-// }
+class ListNode {
+    int val;
+    ListNode next;
+    ListNode() {}
+    ListNode(int val) { this.val = val; }
+    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ }
