@@ -60,7 +60,7 @@ public class L3558_Number_of_Ways_to_Assign_Edge_Weights_I {
                 res = (res * b % mod) % mod;
             b = b * b % mod;                // Square the base
             exp = exp >> 1;                 // Shift to next bit
-        }
+         }
 
         return (int) res;
     }
