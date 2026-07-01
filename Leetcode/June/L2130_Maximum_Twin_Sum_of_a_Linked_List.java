@@ -38,7 +38,7 @@ public class L2130_Maximum_Twin_Sum_of_a_Linked_List {
 
     private static ListNode reverse(ListNode head) {
         ListNode prev = null;
-        ListNode next = null;
+        ListNode next;
         ListNode curr = head;
 
         while (curr != null) {
